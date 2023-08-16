@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: accounting-service
-          image: briarreddogacr.azurecr.io/reddog-retail-demo/reddog-retail-accounting-service:latest
+          image: reddogacr31537.azurecr.io/reddog-retail-demo/reddog-retail-accounting-service:latest
           ports:
             - containerPort: 80
           imagePullPolicy: Always
